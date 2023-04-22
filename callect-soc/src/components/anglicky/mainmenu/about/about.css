@@ -1,0 +1,25 @@
+.cont {
+    width: 70%;
+    height: 59vh;
+    margin-left: 15%;
+    border: 15px solid black;
+    border-radius: 25px;
+    background: linear-gradient(90deg, rgba(69,62,62,1) 0%, rgba(107,107,119,1) 50%, rgba(194,184,184,1) 100%);
+    box-shadow: 3px 3px 50px #aaaaaa;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#bck {
+    margin-left: 150px;
+    margin-top: 30px;
+}
+.popis {
+    text-align: center;
+    font-size: 32px;
+    color: red;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.text_1 {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}

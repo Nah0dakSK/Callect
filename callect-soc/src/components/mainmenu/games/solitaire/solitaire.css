@@ -1,0 +1,17 @@
+.backgrond {
+    background-image: url("../../../../images/solitaire-table.jpg");
+}
+.spac {
+    padding-top: 233px;
+}
+#Sltr {
+    margin-left: 100px;
+    border-radius: 25px;
+}
+.sltr-txt {
+    text-align: center;
+    font-size: 32px;
+    color: rgb(25, 3, 85);
+    text-shadow: 1px 1px 2px red, 0 0 1em rgb(43, 102, 150), 0 0 0.2em blue;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}

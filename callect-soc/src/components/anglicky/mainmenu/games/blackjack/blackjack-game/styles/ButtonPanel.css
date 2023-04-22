@@ -1,0 +1,56 @@
+button {
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 28px;
+    height: 40px;
+    width: 150px;
+    margin: 2px;
+}
+
+button:hover {
+    border: solid 2px white;
+}
+
+button:focus {
+    outline:0;
+}
+
+button.hit1 {
+    background-color: orange;
+}
+
+button.hit1:active{
+    background-color: darkorange;
+}
+
+button.stay1 {
+    background-color: red;
+}
+
+button.stay1:active {
+    background-color: darkred;
+}
+
+button.deal1 {
+    background-color: green;
+}
+
+button.deal1:active {
+    background-color: darkgreen;
+}
+
+div.message1 {
+    font-family: sans-serif;
+    border: none;
+    color: white;
+    font-size: 28px;
+    height: 40px;
+    margin: 2px;
+}
+
+div.message1 * {
+    vertical-align: middle;
+    line-height: 40px;
+}
+

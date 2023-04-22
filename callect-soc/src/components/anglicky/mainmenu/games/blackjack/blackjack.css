@@ -1,0 +1,17 @@
+.backgnd {
+    background-image: url("../../../../../images/table.png");
+}
+.spec {
+    padding-top: 233px;
+}
+#Blkjk {
+    margin-left: 100px;
+    border-radius: 25px;
+}
+.blkjk-txt {
+    text-align: center;
+    font-size: 32px;
+    color: rgb(25, 3, 85);
+    text-shadow: 1px 1px 2px red, 0 0 1em rgb(43, 102, 150), 0 0 0.2em blue;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}

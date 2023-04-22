@@ -1,0 +1,54 @@
+.backgnd {
+    background-image: url("../../../../images/table.png");
+}
+.spec {
+    padding-top: 225px;
+}
+#Blkjk {
+    margin-left: 100px;
+    border-radius: 25px;
+}
+.blkjk-txt {
+    text-align: center;
+    font-size: 32px;
+    color: rgb(25, 3, 85);
+    text-shadow: 1px 1px 2px red, 0 0 1em rgb(43, 102, 150), 0 0 0.2em blue;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.butn {
+  background-color: #fbeee0;
+  border: 2px solid #422800;
+  border-radius: 30px;
+  box-shadow: #422800 4px 4px 0 0;
+  color: #422800;
+  cursor: pointer;
+  display: inline-block;
+  margin-left: 770px;
+  width: 250px;
+  height: 100px;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.butn:hover {
+  background-color: #fff;
+}
+
+.butn:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .butn-74 {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+}
