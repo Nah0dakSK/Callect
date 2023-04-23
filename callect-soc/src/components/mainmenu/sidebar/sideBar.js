@@ -7,10 +7,9 @@ import { Link } from "react-router-dom";
 import Popup from "reactjs-popup";
 import "reactjs-popup/dist/index.css";
 import { useAuth0 } from "@auth0/auth0-react";
-import Profile from "../../../images/profile.png";
 
 function Sidebar() {
-    const { logout } = useAuth0();
+    const { logout, user } = useAuth0();
     return(
         <>
             <div className="header">
@@ -18,8 +17,9 @@ function Sidebar() {
                 <Link to="/eng"><img src={Eng} alt="eng" id="eng"></img></Link>
                 <img src={Logo} className="logo" alt="logo" id="logo"></img>
                 <Popup trigger=
-                {<img src={Profile} alt="profile" id="Profile"></img>}>
-                <p className="par">Prihlásený</p>
+                {<img src={user.picture} alt={user.name} id="Profile"></img>}>
+                <p className="par">{user.name}</p>
+                <p className="par">{user.email}</p>
                 <button className="logout" onClick={() => logout()}>Odhlásiť</button>
                 </Popup>
             <input type="checkbox" className="sidebarmenu" id="sidebarmenu"/>
