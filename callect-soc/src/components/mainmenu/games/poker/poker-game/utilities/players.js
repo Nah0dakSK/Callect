@@ -1,4 +1,4 @@
-import {v1 as uuid} from 'uuid';
+import {v4 as uuid} from 'uuid';
 import axios from 'axios';
 import { handlePhaseShift, reconcilePot, anteUpBlinds, determineBlindIndices } from './bet.js';
 import { dealMissingCommunityCards, showDown, generateDeckOfCards, shuffle, dealPrivateCards } from './cards.js';
@@ -8,7 +8,7 @@ import { dealMissingCommunityCards, showDown, generateDeckOfCards, shuffle, deal
 const generateTable = async () => {
 	const users = [{
 		id: uuid(),
-		name: 'Player 1',
+		name: 'Nah0dakSK',
 		avatarURL: '/assets/boy.svg',
 		cards: [],
 		showDownHand: {
